@@ -38,7 +38,7 @@ function setup() {
 
 function portada() {
     createSpan("Estás en index.html").parent("title");
-    createElement('p','Y yo uso'+random(lorenIpsum)+' para trabajar dia a dia.').parent(loPrincipal);
+    createElement('p','Y yo uso '+random(lorenIpsum)+' para trabajar dia a dia.').parent(loPrincipal);
     select("a:nth-child(1)").style("font-weight", "bold").style("color", "#000000");
 }
 
