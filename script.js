@@ -22,7 +22,7 @@ var elEncabezado = document.querySelector("header");
 
 var loPrincipal = document.querySelector("main");
 
-var lorenIpsum = ["párrafo","texto","escrito","pasaje","enunciado"];
+var lorenIpsum = ["lentes","un ipad","lapices","una croquera","un escritorio"];
 
 function setup() {
     noCanvas();
@@ -38,7 +38,7 @@ function setup() {
 
 function portada() {
     createSpan("Estás en index.html").parent("title");
-    createElement('p','Y este es un '+random(lorenIpsum)+' en la portada.').parent(loPrincipal);
+    createElement('p','Y yo uso'+random(lorenIpsum)+' para trabajar dia a dia.').parent(loPrincipal);
     select("a:nth-child(1)").style("font-weight", "bold").style("color", "#000000");
 }
 
