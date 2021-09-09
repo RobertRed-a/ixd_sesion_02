@@ -27,8 +27,8 @@ var lorenIpsum = ["lentes","un ipad","lapices","una croquera","un escritorio"];
 function setup() {
     noCanvas();
     createElement("h1", elSaludo).parent(elEncabezado).id("title");
-    createA("index.html", "index").parent("vinculos");
-    createA("page.html", "page").parent("vinculos");
+    createA("index.html", "mi trabajo").parent("vinculos");
+    createA("page.html", "mi casa").parent("vinculos");
     if (dondeEstas) {
         portada();
     } else {
